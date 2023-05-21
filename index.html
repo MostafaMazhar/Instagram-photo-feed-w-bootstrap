@@ -72,7 +72,7 @@
       </div>
     </div>
     
-             <!-- switch tab photo "single square photo and tablist 'toggle' " -->
+             <!-- 'toggle' switch tab photo "single square photo to tablist" -->
     <div class="container-fluid p-2">
       <ul class="nav nav-pill justify-content-center" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
@@ -87,7 +87,10 @@
       </ul> 
     </div>
 
-       <!-- Photo Grid display -->
+
+          <!-- toggle controller   -->
+  <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab"> 
+         <!-- first row Photo Grid display -->
     <div class="container-fluid d-flex justify-content-center">
       <div class="row">
          <div class="col p-2">
@@ -131,10 +134,67 @@
         </div>
       </div>
     </div>
+  </div>
     
-             
+             <!-- toggle controller   -->
+     <div class="tab-pane fade overflow-hidden" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+             <!-- single photo feed row -->
+        <div class="container-fluid d-flex justify-content-center ">
+          <div class="row-1">
+            <div class="col">
+               <!-- card style -->
+              <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <h6>SF </h6> 
+                    <h6 class="">10/05</h6>
+                  </div>
+                  <img src="https://images.unsplash.com/photo-1502630859934-b3b41d18206c?w=500&h=500&fit=crop" class="gallery-image" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">207 Likes</h5>
+                    <p class="card-text"> Beautiful day outdoor</p>
+                  </div>
+                </div>
+                <!-- card end -->
+            </div>
+            <div class="col">
+               <!-- card style -->
+              <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <h6>Vennis beach</h6> 
+                    <h6>10/08</h6> 
+                  </div>
+                  <img src="https://images.unsplash.com/photo-1423012373122-fff0a5d28cc9?w=500&h=500&fit=crop" class="gallery-image" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">100 Likes</h5>
+                    <p class="card-text"> Fly</p>
+                  </div>
+                </div>
+                 <!-- card end -->
+            </div>
+            <div class="col">
+               <!-- card style -->
+               <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                  <h6>San Diego</h6> 
+                  <h6>11/22</h6> 
+                  </div>
+                  <img src="https://images.unsplash.com/photo-1515814472071-4d632dbc5d4a?w=500&h=500&fit=crop" class="gallery-image" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">150 Likes</h5>
+                    <p class="card-text"> Play day</p>
+                  </div>
+                </div>
+                <!-- card end -->
+            </div>
+          </div>  
+        </div>  
+     </div>
     
-
+          
+           <!--  TO DO 
+            -col gap between photos 
+            -font size 
+            -toggle page top with single photo list -->
 
 
 
